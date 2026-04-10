@@ -58,7 +58,7 @@ To ensure resources are utilized effectively, management requires consolidated i
 ## 📂 Dataset Description & Data Structure
 The dataset encompasses total revenue figures blended with comprehensive marketing spend information on an extremely granular level.
 
-Key components of the dataset include (*Referencing DAC Project 3 Dataset*):
+Key components of the dataset include:
 - **Marketing Expenditure:** Tracks Campaign Budgets, Ad Spend (VND), Delivery Status, and core ad metrics such as Impressions, CPM, CPC, CTR, Inboxes, New vs. Old Customers, and Comments.
 - **Sales & Product Data:** Includes SKU (Mã Sản phẩm), Product Name (Tên Sản phẩm), Unit Price (Giá bán), and Sales Volume recorded on the Order Management System.
 - **Allocated Metrics:** Detailed allocations mapping the ad spend, inbox metrics, and outcomes directly down to the specific Product/SKU level within a campaign (`Tiền đã chạy Theo Sản phẩm`, `Ngân sách Theo sản phẩm`, `CP/KQ Theo AM`, etc.), allowing for precise ROI calculations.

@@ -62,3 +62,13 @@ Key components of the dataset include:
 - **Marketing Expenditure:** Tracks Campaign Budgets, Ad Spend (VND), Delivery Status, and core ad metrics such as Impressions, CPM, CPC, CTR, Inboxes, New vs. Old Customers, and Comments.
 - **Sales & Product Data:** Includes SKU (Mã Sản phẩm), Product Name (Tên Sản phẩm), Unit Price (Giá bán), and Sales Volume recorded on the Order Management System.
 - **Allocated Metrics:** Detailed allocations mapping the ad spend, inbox metrics, and outcomes directly down to the specific Product/SKU level within a campaign (`Tiền đã chạy Theo Sản phẩm`, `Ngân sách Theo sản phẩm`, `CP/KQ Theo AM`, etc.), allowing for precise ROI calculations.
+
+
+---
+## ✨ More information 
+#### 🛠️ Workflow
+This project unfolds through an iterative process heavily reliant on stakeholder feedback and data refinement:
+
+* **Round 1: Data Processing & Modeling:** Cleaning raw data (merging Order tables and Marketing Cost tables), handling the complex allocation syntax, building a robust data model, and releasing the initial Prototype Version 1.
+* **Round 2: Iterations:** Gathering feedback to iterate on the prototype significantly across at least 3 versions (Upload mapping versions 1, 2, and 3), ensuring visual clarity and logic validation.
+* **Round Final:** Polishing the final dashboard, performing dynamic analysis on the insights discovered, drawing tactical recommendations, and presenting via an analytical video walkthrough.

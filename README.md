@@ -65,7 +65,7 @@ Key components of the dataset include:
 
 ---
 ## 🧠 Design Thinking Process
-### 1️⃣ STAGE 1: EMPATHIZE (Nhìn rộng)
+### 1️⃣ STAGE 1: EMPATHIZE
 
 #### 🔹 5W1H Framework
 | Question | Analysis |
@@ -86,7 +86,7 @@ Key components of the dataset include:
 | **PAINS (Challenges)** | 1. Fragmented data.<br>2. Budget burn due to "No Early-Stop" disease.<br>3. High Ad Volume but lower Average Order Value (AOV) compared to Direct Traffic.<br>4. Misaligned Ad Focus (budget pushed into low-margin, easy-to-convert items). |
 | **GAINS (Opportunities)** | A unified model tying Top-of-Funnel (Impressions/Spend) to Bottom-Funnel (OMS Revenue/Margin). Clear ROAS per SKU allowing for maximized, stable profitability. |
 
-### 2️⃣ STAGE 2: DEFINE POV (Nhìn sâu)
+### 2️⃣ STAGE 2: DEFINE POV 
 
 #### 🔹 Northstar Metrics
 | Northstar 1: Return on Ad Spend (ROAS) | Northstar 2: Net Profit Margin |
@@ -103,7 +103,7 @@ Key components of the dataset include:
 | **POV 2: Sales Quality & Channels** | Comparing the quality of traffic/sales between Ads and Direct sources. | **AOV & Profit Volatility.** Breakdown: Average Order Value (Ads vs Direct), Revenue contribution % by channel. |
 | **POV 3: Product / SKU Profitability** | Mapping specific Marketing Spend to actual Product Sales outcomes. | **Margin per SKU & Allocated Spend.** Breakdown: `Tiền đã chạy Theo Sản phẩm`, Revenue per SKU, Hero Products map. |
 
-### 3️⃣ STAGE 3: IDEATE (Ý tưởng & Cấu trúc)
+### 3️⃣ STAGE 3: IDEATE 
 
 #### 🔹 Dimension Layering (Brainstorming)
 - **Layer 0 (Scorecard):** Total Spend, Total Revenue, Overall ROAS, Average AOV, Overall Profit Margin.

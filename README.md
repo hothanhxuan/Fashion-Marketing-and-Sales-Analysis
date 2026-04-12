@@ -63,6 +63,14 @@ Key components of the dataset include:
 - **Sales & Product Data:** Includes SKU (Mã Sản phẩm), Product Name (Tên Sản phẩm), Unit Price (Giá bán), and Sales Volume recorded on the Order Management System.
 - **Allocated Metrics:** Detailed allocations mapping the ad spend, inbox metrics, and outcomes directly down to the specific Product/SKU level within a campaign (`Tiền đã chạy Theo Sản phẩm`, `Ngân sách Theo sản phẩm`, `CP/KQ Theo AM`, etc.), allowing for precise ROI calculations.
 
+---
+## 🧠 Design Thinking Process
+
+
+
+---
+## 📊 Key Insights & Visualizations
+
 
 ---
 ## ✨ More information 

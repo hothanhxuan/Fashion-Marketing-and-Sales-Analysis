@@ -65,15 +65,17 @@ Key components of the dataset include:
 
 ---
 ## 🧠 Design Thinking Process
-![Image](https://github.com/user-attachments/assets/9cfb7db1-e313-4c9e-9095-af1694e0e57c)
+
+![Image](https://github.com/user-attachments/assets/a45eabe6-3c81-48d2-a2ed-69f2eb8bb281)
+
+![Image](https://github.com/user-attachments/assets/27221cfa-f8e9-4543-a87a-e991630df752)
 
 ![Image](https://github.com/user-attachments/assets/86bb0890-c179-43c5-9171-fa3eae776edb)
 
 ![Image](https://github.com/user-attachments/assets/2b7dd89c-7deb-4539-8b05-5b52531b2afb)
 
-![Image](https://github.com/user-attachments/assets/27221cfa-f8e9-4543-a87a-e991630df752)
+![Image](https://github.com/user-attachments/assets/9cfb7db1-e313-4c9e-9095-af1694e0e57c)
 
-![Image](https://github.com/user-attachments/assets/a45eabe6-3c81-48d2-a2ed-69f2eb8bb281)
 
 
 ---

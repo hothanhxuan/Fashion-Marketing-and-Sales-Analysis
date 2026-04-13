@@ -65,80 +65,13 @@ Key components of the dataset include:
 
 ---
 ## 🧠 Design Thinking Process
-### 1️⃣ STAGE 1: EMPATHIZE
-
-#### 🔹 5W1H Framework
-| Question | Analysis |
-| :--- | :--- |
-| **Who will view this dashboard?** | Senior Leadership, Marketing Directors, Marketing Team, and Data Analysts. (*Key Stakeholder: Marketing Director / Leadership*). |
-| **What problem does it solve?** | Bridging the gap between fragmented data (Ads team vs. Sales team) to accurately measure **Real ROI/ROAS down to the SKU level** and identify unstable net margins despite high ad traffic. |
-| **When & Where will it be viewed?** | During weekly/monthly performance reviews, budget allocation meetings, and real-time monitoring of campaign anomalies (e.g., early-stop detection). |
-| **Why is this analysis needed?** | To optimize marketing budget efficiency. Currently, high marketing costs burn through budgets (often with 0-2 ROAS) without actionable insights into which specific products/SKUs generate actual profit. |
-| **How do they make decisions?** | By cross-referencing Ad Spend (VND) with OMS Sales Data (Revenue, Profit Margin) to scale "Star" campaigns and kill underperforming ones. |
-
-#### 🔹 Empathy Map
-
-| Element | Stakeholder Perspective |
-| :--- | :--- |
-| **Think & Feel** | *"Why are my marketing costs so high, but the net profit so erratic week-over-week?"*<br>Feels frustrated by 'illusory' ad revenue and fears over-dependency on 1-2 star campaigns. Anxious about lack of early-stop automated rules. |
-| **See** | Fragmented reports. The Ads team only shows Clicks/Inboxes, while Sales only shows Total Orders. High ad volume but unexpectedly thin profit margins on those specific items. |
-| **Say & Do** | *"What are ads actually selling? Are they profitable?"*<br>Demands to know which campaigns to pause and which SKUs to promote. Tries to manually reconcile ad spend with order data. |
-| **PAINS (Challenges)** | 1. Fragmented data.<br>2. Budget burn due to "No Early-Stop" disease.<br>3. High Ad Volume but lower Average Order Value (AOV) compared to Direct Traffic.<br>4. Misaligned Ad Focus (budget pushed into low-margin, easy-to-convert items). |
-| **GAINS (Opportunities)** | A unified model tying Top-of-Funnel (Impressions/Spend) to Bottom-Funnel (OMS Revenue/Margin). Clear ROAS per SKU allowing for maximized, stable profitability. |
-
-### 2️⃣ STAGE 2: DEFINE POV 
-
-#### 🔹 Northstar Metrics
-| Northstar 1: Return on Ad Spend (ROAS) | Northstar 2: Net Profit Margin |
-| :--- | :--- |
-| **Value to Measure:** The direct return of revenue for every VND spent on ads at the campaign and SKU level. | **Value to Measure:** The actual profitability after accounting for ad spend and COGS. |
-| **Delivery Success:** When ROAS consistently meets or exceeds the target threshold without relying on just one "hero" campaign. | **Delivery Success:** When profit is stable, predictable, and not eroded by high-volume/low-margin ad sales. |
-| **Formula:** `Total Campaign Revenue / Total Ad Spend` | **Formula:** `(Total Revenue - COGS - Ad Spend) / Total Revenue` |
-| **Why:** To prevent "blind spending" and ensure ads actually convert to revenue. | **Why:** Illusory ad revenues don't keep the lights on; profit does. |
-
-#### 🔹 Point of View (POV) Definition & Growth Formula
-| POV | Description | Key Focus / Growth Formula Breakdown |
-| :--- | :--- | :--- |
-| **POV 1: Campaign Health (Macro)** | Evaluating efficiency of marketing budget across campaigns. | **ROAS & CPA.** Breakdown: Spend vs Revenue tracking, Early-stop trigger metrics (identifying ROAS < 2). |
-| **POV 2: Sales Quality & Channels** | Comparing the quality of traffic/sales between Ads and Direct sources. | **AOV & Profit Volatility.** Breakdown: Average Order Value (Ads vs Direct), Revenue contribution % by channel. |
-| **POV 3: Product / SKU Profitability** | Mapping specific Marketing Spend to actual Product Sales outcomes. | **Margin per SKU & Allocated Spend.** Breakdown: `Tiền đã chạy Theo Sản phẩm`, Revenue per SKU, Hero Products map. |
-
-### 3️⃣ STAGE 3: IDEATE 
-
-#### 🔹 Dimension Layering (Brainstorming)
-- **Layer 0 (Scorecard):** Total Spend, Total Revenue, Overall ROAS, Average AOV, Overall Profit Margin.
-- **Layer 1 (1D Breakdown):** ROAS by Campaign, Revenue by Channel (Ads vs Direct), Top 5/Bottom 5 SKUs by Margin.
-- **Layer 2 (2D Breakdown):** ROAS by SKU + Category, AOV by Channel + Time (Weekly Volatility).
-
-#### 🔹 Structure Idea (Dashboard Layout)
-
-##### PAGE 1: Campaign Health Check (Executive Overview)
-- **Very Important Info:** Total Spend, Total Revenue, Overall ROAS Scorecard.
-- **Important Info:** Top "Star" Campaigns vs. Underperforming Campaigns (ROAS < 2 flags for Early-stop).
-- **Detailed Info:** Funnel metrics: CPM -> CPC -> CTR -> Inbox/Comments -> Conversions.
-
-##### PAGE 2: Sales Quality & Channel Performance
-- **Very Important Info:** AOV Comparison (Ads vs Direct), Net Profit Trend over time.
-- **Important Info:** % Revenue Contribution by Channel, Profit Volatility (Week over Week).
-- **Detailed Info:** Analyzing the "Illusory Ad Revenue" hypothesis (high volume, low margin).
-
-##### PAGE 3: Product Segmentation (SKU Deep Dive)
-- **Very Important Info:** SKU Profit Margin vs. Allocated Ad Spend (`Tiền đã chạy Theo Sản phẩm`).
-- **Important Info:** Hero Products landscape (e.g., *Audrey Shirt, Margnet Dress*). Are they Ad-driven or Organic-driven?
-- **Detailed Info:** Cost per Outcome (CP/KQ) per SKU, detecting misaligned ad focus.
-
-### 4️⃣ STAGE 4: PROTOTYPE & REVIEW (Đánh giá)
-
-*During Phase 1 of prototype building, evaluate using the following criteria to iterate (Iterate -> Empathize):*
-
-| Review Area | Quality of Information | Actionable Output |
-| :--- | :--- | :--- |
-| **Campaign Operations** | Are "early-stop" triggers clear? | If No: Redesign visual threshold alerts for bad ROAS. |
-| **Cross-Functional Trust** | Can Sales and Ads teams agree on the numbers? | Ensure the data pipeline linking Ad Spend directly to OMS Revenue via SKU is transparent. |
-| **Product Strategy** | Do we immediately know which SKU to boost? | Shift charts from simple Bar Charts to Scatter Plots (Margin vs Ad Spend) to spot optimization pockets. |
-
-*Design Thinking stresses iteration! If the dashboard doesn't answer "Why are we losing net profit?", loop back to the Empathize stage to refine the data model mappings.*
-
+![Image](https://github.com/user-attachments/assets/5503e4ea-0f98-40c0-bcc7-c1d852c3b4e0)
+![Image](https://github.com/user-attachments/assets/f27e66f2-d392-42e3-97fc-9510996cd2ef)
+![Image](https://github.com/user-attachments/assets/f5e406bc-afb4-4dc4-85ea-c0c4e6bdcbdc)
+![Image](https://github.com/user-attachments/assets/3b7948bf-a92b-4309-9c27-13c7c703bdd7)
+![Image](https://github.com/user-attachments/assets/1f806f68-79b9-4068-a445-9071bc895925)
+![Image](https://github.com/user-attachments/assets/765e8a05-4fe2-4467-8d9a-a9337a39a22f)
+![Image](https://github.com/user-attachments/assets/ecca880a-5ab6-4500-8ace-99a3cd8f6613)
 
 ---
 ## 📊 Key Insights & Visualizations

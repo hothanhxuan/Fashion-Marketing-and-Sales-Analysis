@@ -17,10 +17,11 @@ Tools Used: Power BI
 3. [🧠 Design Thinking Process](#-design-thinking-process)  
 4. [📊 Key Insights & Visualizations](#-key-insights--visualizations)  
 5. [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
-6. [✨ More information](#-more-information)
+6. [💡 Deep dive into Campaign & SKU Optimization](#-deep-dive-into-campaign-&-sku--optimization)
+7. [✨ More information](#-more-information)
 
 ---
-## 📌 Background & Overview
+## 1.📌 Background & Overview
 The goal of this project is to build an **analytic and tactical dashboard** to help the company's leadership understand their marketing budget expenditure and evaluate the performance of marketing campaigns. By linking sales revenue directly with marketing spend, this report aims to optimize the efficiency of the marketing budget against key KPIs and propose actionable tactics for improvement.
 
 Through this project, we:
@@ -55,7 +56,7 @@ To ensure resources are utilized effectively, management requires consolidated i
 
 ---
 
-## 📂 Dataset Description & Data Structure
+## 2.📂 Dataset Description & Data Structure
 The dataset encompasses total revenue figures blended with comprehensive marketing spend information on an extremely granular level.
 
 Key components of the dataset include:
@@ -64,7 +65,7 @@ Key components of the dataset include:
 - **Allocated Metrics:** Detailed allocations mapping the ad spend, inbox metrics, and outcomes directly down to the specific Product/SKU level within a campaign (`Tiền đã chạy Theo Sản phẩm`, `Ngân sách Theo sản phẩm`, `CP/KQ Theo AM`, etc.), allowing for precise ROI calculations.
 
 ---
-## 🧠 Design Thinking Process
+## 3.🧠 Design Thinking Process
 ![Image](https://github.com/user-attachments/assets/5503e4ea-0f98-40c0-bcc7-c1d852c3b4e0)
 ![Image](https://github.com/user-attachments/assets/f27e66f2-d392-42e3-97fc-9510996cd2ef)
 ![Image](https://github.com/user-attachments/assets/f5e406bc-afb4-4dc4-85ea-c0c4e6bdcbdc)
@@ -74,7 +75,7 @@ Key components of the dataset include:
 ![Image](https://github.com/user-attachments/assets/ecca880a-5ab6-4500-8ace-99a3cd8f6613)
 
 ---
-## 📊 Key Insights & Visualizations
+## 4.📊 Key Insights & Visualizations
 ![Image](https://github.com/user-attachments/assets/a45eabe6-3c81-48d2-a2ed-69f2eb8bb281)
 
 ![Image](https://github.com/user-attachments/assets/27221cfa-f8e9-4543-a87a-e991630df752)
@@ -199,7 +200,7 @@ The final page focuses on which specific products and categories are carrying th
 - **Core problem**: Media budget concentrates on high-volume/low-AOV items (Audrey Shirts at AOV 980,000) while high-margin Sets and Dresses running organically at AOV 1,700–1,850,000 sit underfunded.
 
 ---
-## 🔎 Final Conclusion & Recommendations
+## 5.🔎 Final Conclusion & Recommendations
 ### 🔑 Core Diagnosis: What the Data Tells Us
 This analysis consolidates **175 campaigns, 184 SKUs, 3,454 Total Orders, and ~397M VND in ad spend** into a unified performance picture. Three structural problems are driving margin erosion:
 **1. Budget Misallocation — Spending Where It's Easy, Not Where It's Profitable**
@@ -237,7 +238,7 @@ If the P1 + P2 recommendations are executed together:
 - **ROI of this optimization exercise:** >300% return on time investment within 30 days
 
 ---
-## 💡 Deep dive into Campaign & SKU Optimization
+## 6.💡 Deep dive into Campaign & SKU Optimization
 ### 🌟 Tier 1: Star SKUs — Scale Immediately
 
 #### SKU: *Lisa Dress 5 (HELSDR — Price: 1,550,000 VND)
@@ -335,7 +336,7 @@ This campaign represents the clearest example of **operational error undermining
 | Cost per Inbox | <40,000 VND | 40K–80K | >80,000 VND |
 
 ---
-## ✨ More information 
+## 7.✨ More information 
 #### 🛠️ Workflow
 This project unfolds through an iterative process heavily reliant on stakeholder feedback and data refinement:
 * **Round 1: Data Processing & Modeling:** Cleaning raw data (merging Order tables and Marketing Cost tables), handling the complex allocation syntax, building a robust data model, and releasing the initial Prototype Version 1.

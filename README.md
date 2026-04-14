@@ -77,6 +77,7 @@ Key components of the dataset include:
 ---
 ## 4.📊 Key Insights & Visualizations
 ![Image](https://github.com/user-attachments/assets/a45eabe6-3c81-48d2-a2ed-69f2eb8bb281)
+This dashboard tells a comprehensive story of marketing performance and revenue, highlighting both growth and the underlying issues behind the numbers.
 
 ![Image](https://github.com/user-attachments/assets/27221cfa-f8e9-4543-a87a-e991630df752)
 This page focuses on the overall financial overview and the efficiency of the advertising budget for May 2024.

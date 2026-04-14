@@ -58,11 +58,13 @@ To ensure resources are utilized effectively, management requires consolidated i
 
 ## 2.📂 Dataset Description & Data Structure
 ### 🔍 Data source Overview
-The dataset encompasses total revenue figures blended with comprehensive marketing spend information on an extremely granular level.
-Key components of the dataset include:
-- **Marketing Expenditure:** Tracks Campaign Budgets, Ad Spend (VND), Delivery Status, and core ad metrics such as Impressions, CPM, CPC, CTR, Inboxes, New vs. Old Customers, and Comments.
-- **Sales & Product Data:** Includes SKU (Mã Sản phẩm), Product Name (Tên Sản phẩm), Unit Price (Giá bán), and Sales Volume recorded on the Order Management System.
-- **Allocated Metrics:** Detailed allocations mapping the ad spend, inbox metrics, and outcomes directly down to the specific Product/SKU level within a campaign allowing for precise ROI calculations.
+The dataset capture the e-commerce operations, product catalog, order transactions, and granular digital marketing performance of a fashion retail company for May 2024. 
+
+Across the primary tables, the dataset encompasses **10,533** total records:
+- **`fact-order`**: 3,450 records
+- **`fact-mkt_camp_by_sku_cost`**: 3,981 records
+- **`dim-danh sach san pham`**: 2,249 records
+- **`dim-mkt_camp_cost`**: 853 records
 
 ### 🔗 Data Relationships & Model Design
 The Power BI data model follows a **fact–dimension structure** to support efficient analysis and reporting.

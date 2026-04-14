@@ -79,12 +79,100 @@ Key components of the dataset include:
 ![Image](https://github.com/user-attachments/assets/a45eabe6-3c81-48d2-a2ed-69f2eb8bb281)
 
 ![Image](https://github.com/user-attachments/assets/27221cfa-f8e9-4543-a87a-e991630df752)
+This page focuses on the overall financial overview and the efficiency of the advertising budget for May 2024.
+
+Key Metrics: The report highlights an average ROAS (Return on Ad Spend) of 7.67 and a Total Profit of 195.67 million VND
+
+| Metric | Value |
+|---|---|
+| **Total Ad Spend** | 396,722,738 VND (~397M VND) |
+| **Total Revenue** | 4,773,550,000 VND (~4.77B VND) |
+| **Ad-Attributed Revenue** | 3,023,450,000 VND (~3.02B VND) |
+| **Organic / Direct Revenue** | ~1,750,100,000 VND (~1.75B VND) |
+| **Overall ROAS** | **7.67x** |
+| **Ad Share of Total Revenue** | **63.3%** |
+| **Total Campaigns Tracked** | 175 campaigns |
+| **Unique SKUs in Campaigns** | 184 SKUs |
 
 ![Image](https://github.com/user-attachments/assets/86bb0890-c179-43c5-9171-fa3eae776edb)
+This page dives into classifying the "star" campaigns versus those that are wasting the budget.
+#### 1. ROAS Distribution — The "Small Elite" Problem
+Across 175 tracked campaigns, ROAS performance follows a highly skewed distribution:
 
+| ROAS Tier | # Campaigns | Total Spend | Assessment |
+|---|---|---|---|
+| **>10x (Elite)** | Small group | Dominates revenue | Scale immediately |
+| **5–10x (Star)** | Minority | Efficient | Protect & grow |
+| **2–5x (Decent)** | Moderate | Break-even high | Monitor closely |
+| **1–2x (Poor)** | Significant | Burning budget | Pause & audit |
+| **<1x (Loss)** | Present | Net negative ROI | Kill immediately |
+
+**Top Performing Campaigns (ROAS >10x):**
+- **\*Lisa Dress 5** campaign: **ROAS = 43.67x** | Spend: 4,578,194 VND → Revenue: ~200M VND ➤ Severely under-funded relative to performance
+- **\(G\)Margnet Dress** campaign: **ROAS = 17.38x** | Spend: 6,537,964 VND → Revenue: ~114M VND
+- **\*Nevin Dress** campaign: **ROAS = 11.65x** | Spend: 7,850,038 VND → Revenue: ~91M VND
+- **\*Nalani 2** campaign: **ROAS = 10.93x** | Spend: 7,105,756 VND → Revenue: ~78M VND
+- **\*Audrey Shirt 3** campaign: **ROAS = 10.52x** | Spend: 29,613,977 VND → Revenue: ~312M VND ➤ Top overall revenue driver
+
+**Top Budget Spenders (Campaign Spend Leaders):**
+- **AUDREY SHIRT LAL new – Op**: 24,171,418 VND (6.1% of total) | CPM: 52,266 | CPC: 10,874
+- **AUDREY SHIRT LAL new – Re**: 23,283,353 VND (5.9%) | CPM: 98,295 | CPC: 26,665
+- **Tổng hợp 21/4 FLOWERS MAKE MY DAY**: 14,112,695 VND (3.6%) | CPM: 57,970 | CPC: 12,170
+- **AVIAN DRESS – Op**: 9,938,456 VND (2.5%) | CPM: 52,530 | CPC: 4,700 ✅ *Lowest CPC = best click efficiency*
+
+#### 2. The "No Early-Stop" Disease (Confirmed by Data)
+Several campaigns continued spending VND past the breakeven point with single-digit or sub-1x ROAS. Key symptoms:
+- **High CPM outliers detected**: One campaign segment reached CPM of **144,314** and CPC of **43,368** VND — over **4x the average CPC** — with no halt trigger in place.
+- **Budget overshoot**: Multiple campaigns show budget utilization **>100%** (daily budget breached), indicating a lack of automated throttling.
+- **The May 4th Incident**: The *TH 25/4 ELEGANT AESTHETICS* campaign — which had achieved a strong ROAS on allocated spend — was manually paused prematurely, cutting off an active revenue stream mid-cycle.
+
+#### 3. Concentration Risk — Revenue Fragility
+- The **top 3 campaigns** (Audrey Shirt variants + Lisa Dress 5) account for a disproportionate share of total attributed Ad Revenue. Any disruption to this small cluster collapses system-wide revenue.
+- **Audrey Shirt** campaigns alone (3 variants) absorbed **~47.6M VND** in spend and generated **~637M VND** in attributed revenue — representing **~21% of total ad-attributed revenue** from a single product line.
+  
 ![Image](https://github.com/user-attachments/assets/2b7dd89c-7deb-4539-8b05-5b52531b2afb)
+This page analyzes the sources of revenue and the efficiency of the advertising conversion funnel.
+#### 1. Total Revenue by Sale Source
 
+| Channel | Revenue | AOV | Order Share | Assessment |
+|---|---|---|---|---|
+| **Admin (Online)** | 4,016,330,000 VND (84.1%) | 1,404,311 VND | ~84% | Primary channel |
+| **Unknown / Direct** | 757,220,000 VND (15.9%) | 1,274,781 VND | ~16% | Lower AOV but higher quality |
+
+- **Admin channel** (primarily ad-driven orders entered by sales staff): Higher absolute volume but slightly inflated AOV due to membership-tier pricing.
+- **The AOV gap is 10.2%** in favor of Admin, which may be misleading — Direct orders typically carry higher repurchase intent and come without ad acquisition cost.
+
+#### 2. Order Completion Quality
+
+| Status | Count | Share |
+|---|---|---|
+| ✅ Thành công (Completed) | 2,273 | 65.9% |
+| ⏳ Đang xác nhận (Pending) | 389 | 11.3% |
+| 🆕 Mới (New) | 113 | 3.3% |
+| 📦 Đang đóng gói (Processing) | 80 | 2.3% |
+| ❌ Hệ thống hủy (Cancelled) | 1 | <0.1% |
+| — Unknown | 593 | 17.2% |
+
+- **17.2% of entries lack a status** — a data quality gap that could mask cancellations or returns.
+- The true completion rate of confirmed orders (Thành công) is **65.9%**, suggesting ~34% of orders are in limbo or untracked states.
+
+#### 3. Geographic Revenue Distribution (Top Cities)
+
+| City | Revenue | Share |
+|---|---|---|
+| **Hà Nội** | 1,735,210,000 VND | **36.4%** |
+| **Hồ Chí Minh** | 1,005,060,000 VND | **21.1%** |
+| Hải Phòng | 130,790,000 VND | 2.7% |
+| Đồng Nai | 127,460,000 VND | 2.7% |
+| Bà Rịa – Vũng Tàu | 115,100,000 VND | 2.4% |
+| Đà Nẵng | 112,080,000 VND | 2.3% |
+
+- **Hanoi + HCMC = 57.5% of all revenue.** Campaign geo-targeting should be heavily concentrated in these two metros with differential creative strategy per region.
 ![Image](https://github.com/user-attachments/assets/9cfb7db1-e313-4c9e-9095-af1694e0e57c)
+
+---
+## 🔎 Final Conclusion & Recommendations
+
 
 ---
 ## ✨ More information 

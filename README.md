@@ -238,12 +238,106 @@ If the P1 + P2 recommendations are executed together:
 
 ---
 ## 💡 Deep dive into Campaign & SKU Optimization
+### 🌟 Tier 1: Star SKUs — Scale Immediately
+
+#### SKU: *Lisa Dress 5 (HELSDR — Price: 1,550,000 VND)
+- **ROAS: 43.67x** — the highest performing SKU in the entire portfolio
+- **Ad Spend:** 4,578,194 VND → **Ad Revenue:** 199,950,000 VND
+- **Total Revenue:** 314,650,000 VND | Qty Sold: 203 units
+- **Insight:** This SKU is **chronically underfunded**. With a 43.67x ROAS, every additional million VND invested should return ~43M VND in revenue. Even at a conservative 20x post-scale ROAS, a budget increase from ~4.6M → 20M VND would yield an additional **~300M VND in attributed revenue**.
+- **Recommendation:** Triple the daily budget for Lisa Dress 5 campaigns immediately. Test at 3 audience tiers: LAL New, LAL Expanded, and Retargeting Separate.
+
+#### SKU: (G)Margnet Dress (Price: 1,600,000 VND)
+- **ROAS: 17.38x** | Ad Spend: 6,537,964 VND → Revenue: 113,600,000 VND
+- **Total Revenue:** 152,000,000 VND | 95 units sold
+- **Insight:** Margnet Dress has a strong AOV of 1,600,000 VND and sells well both organically and via ads. Its Total Revenue (152M) exceeds its Ads Sales revenue (113.6M), confirming strong Direct Sales demand that ads can amplify without cannibalizing.
+- **Recommendation:** Add a Retargeting campaign layer to capture website visitors and DM inquirers. Maintain at least 2 concurrent ad sets.
+
+#### SKU: *Audrey Shirt 3 (Price: 980,000 VND)
+- **ROAS: 10.52x** | Ad Spend: 29,613,977 VND → Revenue: 311,640,000 VND
+- **Total Revenue:** 318,500,000 VND | 325 units — **Highest volume product in portfolio**
+- **Note:** AOV of 980,000 VND places this in the lower-margin segment. Gross margin estimation (based on similar cost structures in Data5) suggests margin ~18–22%, making it a volume play rather than a premium margin driver.
+- **Recommendation:** Continue funding but avoid further budget concentration increases. Instead, use Audrey Shirt's proven messaging/creative as a template for launching higher-margin SKUs (Varena Set, Percy Set).
+
+---
+
+### ⚠️ Tier 2: Underperforming Campaigns — Action Required
+
+#### Campaign Segment: TH 26/4 YOU DESERVE THE MOST BEAUTIFUL THINGS (LAL)
+- **CPM: 144,314 VND | CPC: 43,368 VND** — the most expensive clicks in the dataset
+- **Total Spend:** 7,431,381 VND (1.9% of portfolio)
+- **Diagnosis:** This campaign targets a broad awareness audience ("new LAL") with unclear conversion intent. The high CPM indicates either **poor creative relevance score** or **saturated audience targeting**.
+- **Recommendation:** Pause the current creative. Rebuild with product-specific video content. Test a new product angle (testimonial or try-on format). Re-launch with a hard 2-day ROAS floor of 2.0x before scaling.
+
+#### Campaign Segment: AUDREY SHIRT LAL – Re (Retargeting)
+- **CPM: 98,295 VND | CPC: 26,665 VND** — 2.5x the average CPC
+- **Spend:** 23,283,353 VND (5.9% of total budget)
+- **Diagnosis:** Retargeting audiences are likely **over-saturated** — the same audience is being retargeted too frequently, causing CPM inflation and diminishing returns.
+- **Recommendation:** Reduce retargeting frequency cap from current (uncapped) to max 2 impressions/user/day. Split retargeting into 3-day window vs. 7-day window segments with separate creative.
+
+---
+
+### 🔄 Tier 3: High-Potential Organic Stars — Activate with Ads
+
+#### SKU: *Percy Set (Price: 1,800,000 VND)
+- **Total Revenue:** 138,600,000 VND | 77 units sold | AOV: 1,800,000 VND
+- **Ad Attribution:** Near zero — selling entirely organically
+- **Why it matters:** This is a **premium AOV product** with proven end-customer demand. If ad spend can achieve even a 5x ROAS (conservative, given the organic baseline), a 5M VND test campaign would yield 25M VND in attributed revenue.
+- **Recommendation:** Launch a small test campaign (5M VND/month) with LAL New audience based on existing buyer profiles. Focus creative on lifestyle positioning, not product shots.
+
+#### SKU: *Delia Set (Price: ~1,850,000 VND)
+- **Total Revenue:** 96,200,000 VND | 52 units | AOV: 1,850,000 VND — **Highest AOV in top-15**
+- **Ad Attribution:** Minimal
+- **Recommendation:** Ideal candidate for a premium "style editorial" content campaign. Target Hanoi and HCMC audiences aged 25–35 with interest in fashion/lifestyle.
+
+---
+
+### 📊 SKU Portfolio Matrix: 2x2 Investment Decision Framework
+
+```
+                HIGH ROAS (>10x)
+                      |
+   [SCALE NOW]        |        [SCALE NOW]
+   Lisa Dress 5,      |        Margnet Dress,
+   Nevin Dress,       |        Nalani 2
+   Nalani 2           |
+LOW VOLUME __________|__________ HIGH VOLUME
+                      |
+   [TEST & LEARN]     |        [OPTIMIZE EFFICIENCY]
+   Percy Set,         |        Audrey Shirt 3,
+   Delia Set          |        Avian Dress,
+   (organic only)     |        Danica Dress 2
+                      |
+                LOW ROAS (<5x)
+```
+
+### 🔬 Micro Case Study: TH 25/4 ELEGANT AESTHETICS — The Pausing Mistake
+
+This campaign represents the clearest example of **operational error undermining marketing performance:**
+
+- The campaign was actively running with a tracking ROAS well above the 5x threshold.
+- Campaign was manually paused by the operations team (likely interpreting a temporary CPM spike as underperformance).
+- **Impact:** Revenue dropped the following days as the campaign's warm audience lost momentum and needed to be re-built from scratch.
+
+**Key Lesson:** Never pause a campaign based on a single-day CPM spike without reviewing 3-day rolling ROAS. Implement a **mandatory 48-hour cool-off review** before any manual campaign pause.
+
+---
+
+### 📐 Recommended KPI Thresholds 
+
+| KPI | Green (Scale) | Yellow (Monitor) | Red (Review/Pause) |
+|---|---|---|---|
+| ROAS | >5x | 2–5x | <2x |
+| CPM | <60,000 VND | 60K–100K | >100,000 VND |
+| CPC | <15,000 VND | 15K–30K | >30,000 VND |
+| CTR | >1.5% | 0.5–1.5% | <0.5% |
+| Budget Usage | 70–95% | 50–70% | <50% or >100% |
+| Cost per Inbox | <40,000 VND | 40K–80K | >80,000 VND |
 
 ---
 ## ✨ More information 
 #### 🛠️ Workflow
 This project unfolds through an iterative process heavily reliant on stakeholder feedback and data refinement:
-
 * **Round 1: Data Processing & Modeling:** Cleaning raw data (merging Order tables and Marketing Cost tables), handling the complex allocation syntax, building a robust data model, and releasing the initial Prototype Version 1.
 * **Round 2: Iterations:** Gathering feedback to iterate on the prototype significantly across at least 3 versions (Upload mapping versions 1, 2, and 3), ensuring visual clarity and logic validation.
 * **Round Final:** Polishing the final dashboard, performing dynamic analysis on the insights discovered, drawing tactical recommendations, and presenting via an analytical video walkthrough.

@@ -75,7 +75,6 @@ Key components of the dataset include:
 
 ---
 ## 📊 Key Insights & Visualizations
-
 ![Image](https://github.com/user-attachments/assets/a45eabe6-3c81-48d2-a2ed-69f2eb8bb281)
 
 ![Image](https://github.com/user-attachments/assets/27221cfa-f8e9-4543-a87a-e991630df752)
@@ -98,7 +97,6 @@ Key Metrics: The report highlights an average ROAS (Return on Ad Spend) of 7.67 
 This page dives into classifying the "star" campaigns versus those that are wasting the budget.
 #### 1. ROAS Distribution — The "Small Elite" Problem
 Across 175 tracked campaigns, ROAS performance follows a highly skewed distribution:
-
 | ROAS Tier | # Campaigns | Total Spend | Assessment |
 |---|---|---|---|
 | **>10x (Elite)** | Small group | Dominates revenue | Scale immediately |
@@ -129,11 +127,10 @@ Several campaigns continued spending VND past the breakeven point with single-di
 #### 3. Concentration Risk — Revenue Fragility
 - The **top 3 campaigns** (Audrey Shirt variants + Lisa Dress 5) account for a disproportionate share of total attributed Ad Revenue. Any disruption to this small cluster collapses system-wide revenue.
 - **Audrey Shirt** campaigns alone (3 variants) absorbed **~47.6M VND** in spend and generated **~637M VND** in attributed revenue — representing **~21% of total ad-attributed revenue** from a single product line.
-  
+
 ![Image](https://github.com/user-attachments/assets/2b7dd89c-7deb-4539-8b05-5b52531b2afb)
 This page analyzes the sources of revenue and the efficiency of the advertising conversion funnel.
 #### 1. Total Revenue by Sale Source
-
 | Channel | Revenue | AOV | Order Share | Assessment |
 |---|---|---|---|---|
 | **Admin (Online)** | 4,016,330,000 VND (84.1%) | 1,404,311 VND | ~84% | Primary channel |
@@ -143,7 +140,6 @@ This page analyzes the sources of revenue and the efficiency of the advertising 
 - **The AOV gap is 10.2%** in favor of Admin, which may be misleading — Direct orders typically carry higher repurchase intent and come without ad acquisition cost.
 
 #### 2. Order Completion Quality
-
 | Status | Count | Share |
 |---|---|---|
 | ✅ Thành công (Completed) | 2,273 | 65.9% |
@@ -157,7 +153,6 @@ This page analyzes the sources of revenue and the efficiency of the advertising 
 - The true completion rate of confirmed orders (Thành công) is **65.9%**, suggesting ~34% of orders are in limbo or untracked states.
 
 #### 3. Geographic Revenue Distribution (Top Cities)
-
 | City | Revenue | Share |
 |---|---|---|
 | **Hà Nội** | 1,735,210,000 VND | **36.4%** |
@@ -168,11 +163,81 @@ This page analyzes the sources of revenue and the efficiency of the advertising 
 | Đà Nẵng | 112,080,000 VND | 2.3% |
 
 - **Hanoi + HCMC = 57.5% of all revenue.** Campaign geo-targeting should be heavily concentrated in these two metros with differential creative strategy per region.
+
 ![Image](https://github.com/user-attachments/assets/9cfb7db1-e313-4c9e-9095-af1694e0e57c)
+The final page focuses on which specific products and categories are carrying the revenue load for the company.
+#### 1. Hero Product Lineup (Total Revenue — Top Performers)
+| Product | Total Revenue | Total Qty | AOV | Ads Sales Rev | ROAS |
+|---|---|---|---|---|---|
+| *Audrey Shirt 3 | 318,500,000 | 325 | 980,000 | 311,640,000 | 10.52x |
+| *Lisa Dress 5 | 314,650,000 | 203 | 1,550,000 | 199,950,000 | 43.67x |
+| *Audrey Shirt 1 | 200,900,000 | 205 | 980,000 | 193,060,000 | 8.83x |
+| *Avian Dress | 156,800,000 | 98 | 1,600,000 | 120,177,581 | 7.38x |
+| (G)Margnet Dress | 152,000,000 | 95 | 1,600,000 | 113,600,000 | 17.38x |
+| *Audrey Shirt 2 | 139,160,000 | 142 | 980,000 | 132,300,000 | 5.90x |
+| *Percy Set | 138,600,000 | 77 | 1,800,000 | — | — |
+| **Varena Set | 132,600,000 | 78 | 1,700,000 | 78,200,000 | 7.20x |
+
+#### 2. Category Revenue Breakdown
+| Category | Revenue | Share |
+|---|---|---|
+| Váy Chiết Eo Xoè (A-line Dresses) | 1,487,850,000 VND | **31.2%** |
+| Áo Tách Set (Blouses/Tops) | 1,050,940,000 VND | **22.0%** |
+| Set Váy Áo (Dress Sets) | 758,980,000 VND | **15.9%** |
+| Váy Chiết Eo Ôm (Fitted Dresses) | 489,400,000 VND | 10.3% |
+| Váy Suông Xoè (Loose Dresses) | 388,590,000 VND | 8.1% |
+| Set Quần Áo (Outfit Sets) | 255,450,000 VND | 5.4% |
+| Chân Váy Tách Set (Skirts) | 211,990,000 VND | 4.4% |
+| Quần Tách Set (Pants) | 126,750,000 VND | 2.7% |
+
+- **Váy Chiết Eo Xoè alone drives 31.2%** of Total Revenue — yet ad spend allocation across categories is not proportionally weighted toward this dominant category.
+- The **Áo Tách Set category** (shirts/blouses — driven by Audrey Shirt variants) contributes 22% of revenue but receives the highest campaign spend concentration, suggesting reasonable alignment here.
+
+#### 3. The Misalignment Problem — Ad Spend vs. Organic Leaders
+- **\*Percy Set** (138.6M Total Revenue, AOV 1,800,000) has zero or near-zero Ads Sales attribution — meaning it sells almost entirely via Direct Sales. This is a missed opportunity to amplify an already-proven product.
+- **\*Delia Set** (96.2M, AOV 1,850,000) and **\*Lilla Dress 3** (92.4M, AOV 1,650,000) similarly show minimal ad dependency, yet could benefit from targeted support.
+- **Core problem**: Media budget concentrates on high-volume/low-AOV items (Audrey Shirts at AOV 980,000) while high-margin Sets and Dresses running organically at AOV 1,700–1,850,000 sit underfunded.
 
 ---
 ## 🔎 Final Conclusion & Recommendations
+### 🔑 Core Diagnosis: What the Data Tells Us
+This analysis consolidates **175 campaigns, 184 SKUs, 3,454 Total Orders, and ~397M VND in ad spend** into a unified performance picture. Three structural problems are driving margin erosion:
+**1. Budget Misallocation — Spending Where It's Easy, Not Where It's Profitable**
+- The company is over-investing in Audrey Shirt campaigns (AOV = 980,000 VND) which have high volume but the **lowest per-unit margin** in the portfolio.
+- Meanwhile, high-margin products like *Percy Set (AOV 1.8M), *Delia Set (AOV 1.85M), and *Lisa Dress 5 (ROAS 43.67x with only 4.6M spend) are receiving a fraction of what their performance warrants.
+- **Recommended Action:** Redistribute 20–30% of Audrey Shirt campaign budget toward Lisa Dress 5, Margnet Dress, and Percy Set campaigns. A ROAS-based auto-bidding reallocation model (e.g., if ROAS >10x → increase budget by 30%) should be implemented in the next sprint.
+**2. No Stop-Loss Rules — Budget Bleeding on Underperformers**
+- Campaigns with ROAS <2x continue to run unchecked, burning budget that could be redirected to star performers.
+- One campaign segment ran at CPM 144,314 VND and CPC 43,368 VND — **4.2x the portfolio average CPC** — with no automatic halt.
+- **Recommended Action:** Implement a tiered Early-Stop Policy:
+  - **If daily ROAS <1.5x after 200K VND spend → Pause immediately**
+  - **If 2-day ROAS <2x → Flag for review and budget cap halved**
+  - **If CPM >120K for 3+ consecutive days → Auto-stop and report**
+**3. Revenue Concentration Risk — Fragility of the "Star" Dependency**
+- Top 3 campaigns generate an outsized share of total ad revenue. A single accidental pause (as documented on May 4th for the ELEGANT AESTHETICS campaign) can trigger a revenue cliff.
+- **Recommended Action:** Build campaign redundancy — maintain **at least 2 active ad sets per top-performing SKU**, using audience diversification (LAL New vs. Retargeting vs. Interest-based) so no single ad set is a single point of failure.
 
+### 📋 Prioritized Action Roadmap
+| Priority | Action | Expected Impact | Timeline |
+|---|---|---|---|
+| 🔴 P1 | Implement ROAS-based auto-stop rules (<1.5x at 200K spend) | Recover ~15–20% of wasted spend | Immediate |
+| 🔴 P1 | Scale Lisa Dress 5 budget (current ROAS: 43.67x is severely underinvested) | +50–80M VND additional revenue/month | This week |
+| 🟠 P2 | Launch Percy Set & Delia Set dedicated ad campaigns | Tap high-margin organic demand with paid amplification | Sprint 2 |
+| 🟠 P2 | Create redundant ad sets for Audrey Shirt 3 & Avian Dress | Eliminate single-set revenue fragility | Sprint 2 |
+| 🟡 P3 | Geo-target campaigns weighted 60:40 toward Hanoi vs. HCMC | Improve cost-efficiency in primary revenue markets | Sprint 3 |
+| 🟡 P3 | Investigate 17.2% unstatused Total Orders | Recover missing revenue data; improve reporting accuracy | Sprint 3 |
+| 🟢 P4 | Audit CPM >120K campaigns and rebuild creative strategy | Lower impression costs; improve ad quality scores | Ongoing |
+| 🟢 P4 | Build AOV segmentation dashboard by Source (Ad vs. Direct) | Identify true profitable channel mix | Ongoing |
+
+### 📊 Expected Business Impact
+If the P1 + P2 recommendations are executed together:
+- **Cost savings from stopping low-ROAS campaigns:** Est. 40–60M VND/month
+- **Revenue gain from scaling Lisa Dress 5 + Margnet Dress:** Est. 80–120M VND/month
+- **Net incremental profit improvement estimate:** 120–180M VND/month
+- **ROI of this optimization exercise:** >300% return on time investment within 30 days
+
+---
+## 💡 Deep dive into Campaign & SKU Optimization
 
 ---
 ## ✨ More information 

@@ -57,12 +57,29 @@ To ensure resources are utilized effectively, management requires consolidated i
 ---
 
 ## 2.📂 Dataset Description & Data Structure
+### 🔍 Data source Overview
 The dataset encompasses total revenue figures blended with comprehensive marketing spend information on an extremely granular level.
-
 Key components of the dataset include:
 - **Marketing Expenditure:** Tracks Campaign Budgets, Ad Spend (VND), Delivery Status, and core ad metrics such as Impressions, CPM, CPC, CTR, Inboxes, New vs. Old Customers, and Comments.
 - **Sales & Product Data:** Includes SKU (Mã Sản phẩm), Product Name (Tên Sản phẩm), Unit Price (Giá bán), and Sales Volume recorded on the Order Management System.
-- **Allocated Metrics:** Detailed allocations mapping the ad spend, inbox metrics, and outcomes directly down to the specific Product/SKU level within a campaign (`Tiền đã chạy Theo Sản phẩm`, `Ngân sách Theo sản phẩm`, `CP/KQ Theo AM`, etc.), allowing for precise ROI calculations.
+- **Allocated Metrics:** Detailed allocations mapping the ad spend, inbox metrics, and outcomes directly down to the specific Product/SKU level within a campaign allowing for precise ROI calculations.
+
+### 🔗 Data Relationships & Model Design
+The Power BI data model follows a **fact–dimension structure** to support efficient analysis and reporting.
+
+#### Data Model Structure
+The data model is structured as a **Star Schema** within Power BI, integrating multiple data sources to enable cross-filtering between marketing efforts and sales outcomes.
+- **Fact Tables (Transactional Data)**:
+  - **`fact-order`**: Records the core sales transactions. Contains granular order details including `Mã khách hàng`, `Mã sản phẩm`, `Giá` (Revenue), `Số lượng`, `Chiết khấu`, and order `Trạng thái`. This table serves as the primary source for calculating Total and Direct Revenue.
+  - **`fact-mkt_camp_by_sku_...`**: Records allocated marketing performance at the Campaign and SKU level. Contains metrics broken down by product, such as `Ngân sáchTheo sản phẩm`, `Tiền đã chạy Theo Sản phẩm`, `Khách mớiTheo AM`, and specific SKU-level Cost-Per-Result indicators (`CP/KQTheo AM`, `CPCTheo AM`).
+
+- **Dimension Tables (Lookup Data)**:
+  - **`dim-danh sach san pham` (Product Master):** The central product dimension linking sales to marketing. Contains product attributes like `Danh mục` (Category), `Mã sản phẩm` (SKU), `Giá bán` (Selling Price), and `Giá vốn` (COGS).
+  - **`dim-mkt_camp_cost` (Campaign Overview):** Contains top-level campaign information, such as `Campaign ID`, `Tên chiến dịch`, `Ngân sách chiến dịch`, and aggregated top-of-funnel metrics (`Lượt hiển thị`, `Click`, `CPC`, `CPM`).
+  - **`dim_date` (Date Dimension):** A standard time-intelligence table (`Date`, `Day`, `Week`, `Week_Label`) linked to both fact tables, enabling chronological analysis and Week-over-Week comparisons.
+
+#### Table Relationships
+![Image](https://github.com/user-attachments/assets/b9b6270d-4ad5-4623-af9f-3e58fe54ee7f)
 
 ---
 ## 3.🧠 Design Thinking Process
